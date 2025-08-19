@@ -6,6 +6,7 @@ type ActiveLinkProps = {
     children: React.ReactNode
 } & LinkProps
 
+// Active Links with pathName router
 export const ActiveLink = ({children, href, ...rest}: ActiveLinkProps) => {
 
     const router = useRouter()
