@@ -9,14 +9,14 @@ export const FeatureSection = () => {
         <section className="container bg-gray-700 grid gap-6 md:grid-cols-2 pb-8 pt-8 md:py-10">
             <div className="flex flex-col gap-4 rounded-lg bg-gray-500 md:p-12 p-6">
                 <span className="text-body-tag text-blue-200 bg-blue-400 px-2 py-1 w-fit rounded-sm uppercase">Simple</span>
-                <h2 className="text-gray-100 text-heading-lg">
+                <h2 className="font-sans text-gray-100 text-heading-lg">
                     Create an online product catalog in minutes
                 </h2>
             </div>
 
             <div className="flex flex-col gap-4 rounded-lg bg-gray-500 md:p-12 p-6">
                 <span className="text-body-tag text-blue-200 bg-blue-400 px-2 py-1 w-fit rounded-sm uppercase">practical</span>
-                <h2 className="text-gray-100 text-heading-lg">
+                <h2 className="font-sans text-gray-100 text-heading-lg">
                     Sell to your audience through a single platform
                 </h2>
             </div>
@@ -26,7 +26,7 @@ export const FeatureSection = () => {
                     <div className="flex flex-col gap-4 ">
                         <span className="text-body-tag text-blue-200 bg-blue-400 px-2 py-1 w-fit rounded-sm uppercase">customizable</span>
 
-                        <h2 className="text-gray-100 text-heading-lg">
+                        <h2 className="font-sans text-gray-100 text-heading-lg">
                             Have a personalized online store that reflects your brand's image
                         </h2>
 
