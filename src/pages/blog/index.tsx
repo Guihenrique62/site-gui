@@ -14,14 +14,14 @@ export default function BlogPage() {
 
 
                         {/* Titulo */}
-                        <h1 className="text-balance text-center md:text-left text-heading-lg md:text-heading-xl max-w-2xl text-gray-100">Tips and strategies to boost your business</h1>
+                        <h1 className="text-balance md:text-left text-heading-lg md:text-heading-xl max-w-2xl text-gray-100">Tips and strategies to boost your business</h1>
                     </div>
+                    {/* Search */}
+                    <Search />
                 </div>
-
             </header>
 
-            {/* Search */}
-            <Search />
+            
 
             {/* Lista de posts */}
         </div>
