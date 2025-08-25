@@ -15,7 +15,7 @@ export const Postcard = () => {
                         <span className="text-gray-300 text-body-xs ">20/12/2024</span>
                     </div>
                     <Image
-                        src={``}
+                        src={`/assets/primeiro-post.png`}
                         alt=""
                         width={288}
                         height={144}
@@ -24,10 +24,10 @@ export const Postcard = () => {
                 </div>
 
                 {/* Post Info */}
-                <div>
-                    <h2>transformando seu negocio em uma loja virtual</h2>
+                <div className="px-2 mt-4 space-y-4 ">
+                    <h2 className="text-heading-sm text-gray-100 line-clamp-3">transformando seu negocio em uma loja virtual</h2>
 
-                    <p>Se voce esta buscando alkjflkajfkljd afajflkjadkf alkfjaklf....</p>
+                    <p className="text-gray-300 text-body-sm line-clamp-3">Se voce esta buscando alkjflkajfkljd afajflkjadkf alkfjaklf....</p>
 
                     {/* Post Footer */}
                     <div className="flex items-center gap-3 border-t border-gray-400 py-4">
@@ -40,7 +40,7 @@ export const Postcard = () => {
                             />
                         </div>
 
-                        <span className="text-body-xs text-gray-300">Aspen Dokidis</span>
+                        <span className="text-body-sm text-gray-300">Aspen Dokidis</span>
                     </div>
                 </div>
 
