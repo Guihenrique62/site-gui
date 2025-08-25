@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { SearchIcon } from "lucide-react"
+import { CircleX, SearchIcon } from "lucide-react"
 import { useRouter } from "next/router"
 import { useCallback, useEffect, useState } from "react"
 
@@ -35,6 +35,8 @@ export const Search = () => {
                 placeholder="Search"
                 onChange={handleQueryChange}
             />
+
+            {query && (<CircleX className="text-gray-300 absolute w-4 h-4 top-1/2 -translate-y-1/2 right-3"/>)}
         </form>
     )
 }
