@@ -4,14 +4,14 @@ import Link from "next/link"
 export const Postcard = () => {
 
     return (
-        <Link href={'/blog/'} className=" w-full max-w-2xl rounded-3xl border-[1px] border-gray-400 bg-gray-600 overflow-hidden transition-all duration-300 hover:border-[1px] hover:border-blue-300">
+        <Link href={'/blog/'} className=" w-full max-w-2xl rounded-[12px] border-[1px] border-gray-400 bg-gray-600 overflow-hidden transition-all duration-300 hover:border-[1px] hover:border-blue-300">
 
             {/* Post Content */}
             <div className="p-2 rounded-md overflow-hidden">
 
                 {/* image Container */}
                 <div className="relative">
-                    <div className="absolute top-0 right-0 px-3 py-1">
+                    <div className="absolute top-0 right-0 px-3 py-1 bg-gray-600 backdrop-blur-sm rounded-bl-[10px]">
                         <span className="text-gray-300 text-body-xs ">20/12/2024</span>
                     </div>
                     <Image
@@ -19,7 +19,7 @@ export const Postcard = () => {
                         alt=""
                         width={288}
                         height={144}
-                        className="w-full h-40 object-cover object-center"
+                        className="w-full h-40 object-cover object-center rounded-t-[8px] "
                     />
                 </div>
 
