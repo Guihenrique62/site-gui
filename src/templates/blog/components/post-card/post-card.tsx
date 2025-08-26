@@ -29,7 +29,7 @@ export const Postcard = ({slug, title, description, image, date, author}:PostCar
                         <span className="text-gray-300 text-body-xs ">{date}</span>
                     </div>
                     <Image
-                        src={image}
+                        src={`${image.trim()}`}
                         alt=""
                         width={288}
                         height={144}
@@ -48,7 +48,7 @@ export const Postcard = ({slug, title, description, image, date, author}:PostCar
                         <div className="relative h-5 w-5 md:h-6 md:w-6 overflow-hidden rounded-full border-blue-200 border-[1px] ">
                             <Image
                                 src={author.avatar}
-                                alt=""
+                                alt="Author avatar"
                                 fill
                                 className="object-cover rounded-md"
                             />
